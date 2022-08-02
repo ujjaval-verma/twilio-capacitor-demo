@@ -1,0 +1,60 @@
+.circle {
+  position: relative;
+  -moz-border-radius: 880px/880px;
+  -webkit-border-radius: 880px 880px;
+  border-radius: 880px/880px;
+  border: 0px;
+  width: 880px;
+  height: 880px;
+}
+
+.yarn {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  display: inline-block;
+  border-style: 30px solid black;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#yarn-1 {
+  background-image: url("yarn-1.png");
+  left: 0;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+#yarn-2 {
+  background-image: url("yarn-2.png");
+  margin-top: 520px;
+  margin-left: 240px;
+}
+#yarn-3 {
+  background-image: url("yarn-3.png");
+  right: 0;
+  margin-top: 120px;
+  margin-right: 20px;
+}
+
+video {
+  position: absolute;
+  height: 360px;
+  width: 360px;
+  display: inline-block;
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  margin-top: 400px;
+  left: 0;
+  margin-left: 400px;
+  display: inline-block;
+}
+
+#join {
+  font-size: 30px;
+}
