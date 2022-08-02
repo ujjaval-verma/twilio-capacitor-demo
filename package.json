@@ -1,0 +1,30 @@
+{
+  "name": "twilio-capacitor-demo",
+  "version": "1.0.0",
+  "description": "Twilio based WebRTC video conferencing app with ability to capture snapshots natively",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujjaval-verma/twilio-capacitor-demo.git"
+  },
+  "keywords": [
+    "demo",
+    "twilio",
+    "capacitor"
+  ],
+  "author": "ujjaval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ujjaval-verma/twilio-capacitor-demo/issues"
+  },
+  "homepage": "https://github.com/ujjaval-verma/twilio-capacitor-demo#readme",
+  "dependencies": {
+    "@capacitor/core": "^4.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^4.0.1"
+  }
+}
