@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
   // initialize number of participants with local video.
-  // we can have a max of 3 participants.
-  let availableYarn = [1, 2, 3];
+  // we can have a max of 2 participants.
+  let availableYarn = [1, 2];
 
   // element identifiers
   const startDiv = document.getElementById("start");
