@@ -26,7 +26,7 @@ window.addEventListener("load", () => {
     // TODO: Use the access token to join a room
     const room = await Twilio.Video.connect(token, {
       name: "test_twilio_ujjaval",
-      video: {height: 360},
+      video: {height: 640},
       audio: false
     })
     console.log(room);
@@ -85,7 +85,7 @@ window.addEventListener("load", () => {
   // event listeners
   joinButton.addEventListener("click", connect);
 
-  let width = 320;    // We will scale the photo width to this
+  let width = 1920;    // We will scale the photo width to this
   let height = 0;     // This will be computed based on the input stream
 
   // |streaming| indicates whether or not we're currently streaming
